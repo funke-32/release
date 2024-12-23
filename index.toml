@@ -1,0 +1,17 @@
+
+name = "index"
+version = "1"
+
+[features]
+[features.http_requests]
+allowed_methods = ["GET","POST"]
+allowed_hosts = ["petstore.swagger.io","functions-us-west.photoniq.macrometa.io","api-gudgeon-b29713a9.paas.macrometa.io"]
+allow_http = true
+
+[features.log]
+enabled = true
+level = "INFO"
+
+[vars]
+MESSAGE = "Hello 👋! This message comes from an environment variable"
+

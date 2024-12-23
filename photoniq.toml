@@ -1,0 +1,17 @@
+name = "testgdnjs"
+version = "0.0.3"
+description = "Description for function testgdnjs"
+lang = "js"
+#execute_url_suffix = "optional_url_suffix_to_execute_function"
+
+[cors_settings]
+allowed_methods = ["GET","POST"]
+allowed_hosts = ["petstore.swagger.io","functions-us-west.photoniq.macrometa.io","api-gudgeon-b29713a9.paas.macrometa.io"]
+allow_http = true
+
+[log_settings]
+enabled = true
+level = "INFO"
+
+[env_vars]
+MESSAGE = "Hello 👋! This message comes from an environment variable"
